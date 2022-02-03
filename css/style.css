@@ -1,0 +1,50 @@
+
+nav li{
+    padding: 12px;
+}
+
+.active{
+    background-color: #87CEFA;
+    font-weight: bold;
+    border: 5px solid #D3D3D3; 
+}
+
+.page{
+    background-color: #FFB6C1;
+    font-family:cursive;
+    display: block;
+}
+
+img{
+    border: solid #87CEFA 5px;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+header{
+    background-color: #87CEFA;
+}
+
+
+h1{
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+
+img:hover:nth-child(2n){
+    
+    filter:sepia();
+    border: solid; 
+ } 
+
+ footer{
+     background-color: #87CEFA;
+     padding: 32px 8px;
+ }
+
+ a.skip {
+    font-family: cursive;
+    text-decoration: none;
+ }
